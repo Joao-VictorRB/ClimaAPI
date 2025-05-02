@@ -1,0 +1,11 @@
+# Ignorar o arquivo de chave de API
+.env
+
+# Ignorar arquivos de compilação do Python
+__pycache__/
+
+# Ignorar outros arquivos temporários
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
