@@ -2,6 +2,7 @@ from ETL.coleta import pegar_dados_api
 from ETL.coleta import mostrar_previsao_futura
 from database.conexao import salvar_previsao
 
+#Sistema abaixo foi feito para usar o programa no terminal.
 
 # === MENUS ===
 def adicionar_cidade():
