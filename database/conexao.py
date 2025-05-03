@@ -61,6 +61,10 @@ def salvar_previsao(clima):
         clima['descricao'],
         clima['vento']
     ))
+    
+    conexao.commit()
+    conexao.close()
+
     return {
         'cidade': clima['cidade'],
         'temperatura': clima['temperatura'],
@@ -71,7 +75,3 @@ def salvar_previsao(clima):
         'descricao': clima['descricao'],
         'vento': clima['vento']
     }
-    
-    
-    conexao.commit()
-    conexao.close()
