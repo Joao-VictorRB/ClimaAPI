@@ -1,10 +1,12 @@
 import requests
 from datetime import datetime, timedelta
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
+api_key = os.getenv("API_KEY")
 
 
-
-api_key = os.getenv("OPENWEATHER_API_KEY")
 
 print(api_key)
 def pegar_dados_api(cidade):
