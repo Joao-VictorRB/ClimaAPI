@@ -1,12 +1,8 @@
 import requests
 from datetime import datetime, timedelta
-import os
-from dotenv import load_dotenv
+import streamlit as st
 
-load_dotenv()
-api_key = os.getenv("API_KEY")
-
-
+api_key = st.secrets["API_KEY"]
 
 print(api_key)
 def pegar_dados_api(cidade):
