@@ -32,3 +32,6 @@ O objetivo do projeto é construir uma aplicação que:
 ## Estrutura do Projeto
 
 A estrutura do projeto é dividida em diferentes módulos para garantir organização e modularidade.
+
+## Projeto no Ar
+https://climaapi-j6rgfs8d7zncv6j6apyqbz.streamlit.app/
